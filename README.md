@@ -176,3 +176,11 @@ mais risco de misconfiguração do que benefício.
   a exceção no UFW/DOCKER-USER.
 - A cada novo peer WireGuard ou usuário SSH: revisar `AllowUsers` e
   `allowed ips` — não deixar acumular acesso que ninguém usa mais.
+
+---
+
+## Licença
+
+MIT, ver [`LICENSE`](LICENSE). Sem garantia: o script mexe em SSH e
+firewall, então teste numa VM ou com acesso ao console antes de rodar em
+produção.
